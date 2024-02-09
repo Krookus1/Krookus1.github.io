@@ -12,42 +12,36 @@
 <body class="bg-[url('/img/clouds.jpg')] bg-cover text-white Montserrat">
   <header class="flex justify-center px-20 pt-8 py-4 bg-transparent">
       
-      <div class="text-5xl lg:text-7xl text-center text-violet-800 font-rub">
+      <div class="text-5xl lg:text-7xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">
         ASTRIDI SUHKRUVATT
       </div>
   </header>
 
   <section>
-    <div class="flex justify-center pt-10 text-center">
-      <h1 class="font-bold text-center lg:text-left text-4xl lg:text-5xl">
-          Sobib hästi sünnipäevadele!
-        </h1>
-    </div>
-    <div class="container flex px-4 pt-10 mx-auto space-y-0 flex-row lg:space-y-0">
+    <div class="container flex px-4 pt-10 lg:pt-20 mx-auto space-y-0 flex-row lg:space-y-0">
       
       <div class="flex flex-col space-y-4 lg:space-y-12 w-1/2">
-        
-        <p class="max-w-sm lg:text-center lg:pt-10 text-3xl lg:text-5xl">
-          Erinevad maitsed:</p>
-          <p class="text-rose-400 text-2xl lg:text-5xl">Maasikas
-          <p class="text-green-500 text-2xl  lg:text-5xl">Õun</p>
-          <p class="text-indigo-500 text-2xl lg:text-5xl">Nätsukomm</p>
-          <p class="text-orange-500 text-2xl lg:text-5xl">Vaarikas</p>
+
+          <p onclick="setStrawberry()" class="flex justify-center hover:scale-[1.1] ease-in-out duration-300 text-rose-400 shadow-md rounded-full border-solid border-2 border-[#1eb988] bg-gradient-to-r from-[#43B692] to-[#8fe4c5] p-2 text-2xl lg:text-5xl lg:w-2/3 w-10/12">Maasikas
+            <p onclick="setGum()" class="flex justify-center hover:scale-[1.1] ease-in-out duration-300 text-rose-400 shadow-md rounded-full border-solid border-2 border-[#1eb988] bg-gradient-to-r from-[#43B692] to-[#8fe4c5] p-2 text-2xl lg:text-5xl lg:w-2/3 w-10/12">Nätsukomm</p>
+            <p onclick="setRasberry()" class="flex justify-center hover:scale-[1.1] ease-in-out duration-300 text-rose-400 shadow-md rounded-full border-solid border-2 border-[#1eb988] bg-gradient-to-r from-[#43B692] to-[#8fe4c5] p-2 text-2xl lg:text-5xl lg:w-2/3 w-10/12">Vaarikas</p>
+          <p onclick="setApple()" class="flex justify-center hover:scale-[1.1] ease-in-out duration-300 text-rose-400 shadow-md rounded-full border-solid border-2 border-[#1eb988] bg-gradient-to-r from-[#43B692] to-[#8fe4c5] p-2 text-2xl lg:text-5xl lg:w-2/3 w-10/12">Õun</p>
         </p>
         <div class="flex flex-col-2 gap-8 pt-10">
 
       </div>
     </div>
     
-        <div class="container pt-2 lg:pt-10 flex flex-col w-1/2">
-        <img class="w-full rounded-lg" src="/img/vatt.jpg">
+        <div class="container flex flex-col w-1/2">
+        <img id="img1" 
+        class="w-full lg:w-9/12 rounded-lg" src="/img/vatt.jpg">
       </div>
     </div>
   </section>
 
   <section>
     <div class="container flex flex-col justify-center items-center mx-auto space-y-0 lg:space-y-0">
-      <h1 class="text-rose-700 font-bold text-center lg:pt-20 text-xl lg:text-5xl">Ühes suhkruvatis on 2x vähem suhkrut kui 0,5l limonaadis.</h1>
+      <p class="text-2xl lg:text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Ühes suhkruvatis on 2x vähem suhkrut kui 0,5l limonaadis. <p class="text-center text-m lg:text-2xl">Ühes suhkruvatis on 28g suhkrut, aga 0,5l Coca-colas 54g suhkrut</p></p>
 
     </div>
   </section>
@@ -58,18 +52,18 @@
       <div class="container flex flex-col items-center px-8 lg:pt-20 lg:w-1/2">
         <a href="/img/Koolilaat.mp4">
         <img class="lg:w-full rounded-lg" src="/img/masin.JPG">
-    </a>
+    </a><p class="text-black ">Pildil valmistan nätsukommi maitselist suhkruvatti</p>
      </div>
 
       <div class="flex flex-col lg:pt-0 pl-8 space-y-0 lg:space-y-8 gap-8 text-left lg:text-right lg:w-1/2">
         <div class="w-full h-full bg-linear-gradient flex flex-col rounded-xl space-y-4 lg:space-y-0 lg:pb-6">
-          <h1 class="font-bold text-l lg:text-[36px] pt-2 text-white">Teen sünnipäevadel ja muudel üritustel vahvaid suhkruvatte</h1>
+          <h1 class="text-xl lg:text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Teen sünnipäevadel ja muudel üritustel vahvaid suhkruvatte</h1>
         </div>
         <div class="w-full h-full bg-linear-gradient flex flex-col rounded-xl space-y-4 lg:space-y-0 lg:space-x-6">
-          <h1 class="font-bold text-l lg:text-[36px] pt-2 text-white">Tunni hind 40 eurot</h1>
+          <h1 class="text-xl lg:text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Tunni hind 40 eurot</h1>
         </div>
         <div class="w-full h-full bg-linear-gradient flex flex-col rounded-xl space-y-4 lg:space-y-0 lg:space-x-6">
-          <h1 class="font-bold text-l lg:text-[36px] pt-2 text-white">Valmistan suhkruvatte Saaremaa piirkonnas</h1>
+          <h1 class="text-xl lg:text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Valmistan suhkruvatte Saaremaa piirkonnas</h1>
         </div>
       </div>
     </div>
@@ -78,7 +72,7 @@
   <section>
     <div class="pt-20 lg:pl-45 lg:pr-45 pb-20 px-2 lg:px-4">
     <div class="w-full h-full p lg:pr-10 flex flex-col rounded-xl border-x-teal-700 border-2 space-y-4 lg:space-y-0 lg:space-x-6">
-      <h1 class="flex justify-center text-center font-bold text-xl lg:text-3xl pb-4 text-white">Kirjuta kui tahad oma peo magusaks teha</h1>
+      <h1 class="text-2xl lg:text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Kirjuta, kui tahad oma peo magusaks teha:</h1>
       <div class="flex justify-center text-2xl lg:text-3xl">
         ansperastrid@gmail.com
       </div>
@@ -87,6 +81,22 @@
   </section>
 
   
- 
+ <script> 
+
+function setStrawberry() {
+    document.getElementById("img1").src = "/img/pink-cotton-candy.jpg";
+  }
+  function setApple() {
+    document.getElementById("img1").src = "/img/green-candy.jpg";
+  }
+  function setGum() {
+    document.getElementById("img1").src = "/img/blue-cotton-candy.jpg";
+  }
+  function setRasberry() {
+    document.getElementById("img1").src = "/img/pink-candy.jpg";
+  }
+  
+
+  </script>
 </body>
 </html>
