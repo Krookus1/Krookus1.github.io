@@ -18,14 +18,14 @@
   </header>
 
   <section>
-    <div class="container flex px-4 pt-10 lg:pt-20 mx-auto space-y-0 flex-row lg:space-y-0">
+    <div class="container flex px-4 lg:pt-20 mx-auto space-y-0 flex-row lg:space-y-0">
       
-      <div class="flex flex-col space-y-4 lg:space-y-12 w-1/2">
+      <div class="flex flex-col pt-8 lg:pt-20 space-y-4 lg:space-y-12 w-1/2">
 
-          <p onclick="setStrawberry()" class="flex justify-center hover:scale-[1.1] ease-in-out duration-300 text-rose-400 shadow-md rounded-full border-solid border-2 border-[#1eb988] bg-gradient-to-r from-[#43B692] to-[#8fe4c5] p-2 text-2xl lg:text-5xl lg:w-2/3 w-10/12">Maasikas
-            <p onclick="setGum()" class="flex justify-center hover:scale-[1.1] ease-in-out duration-300 text-rose-400 shadow-md rounded-full border-solid border-2 border-[#1eb988] bg-gradient-to-r from-[#43B692] to-[#8fe4c5] p-2 text-2xl lg:text-5xl lg:w-2/3 w-10/12">Nätsukomm</p>
-            <p onclick="setRasberry()" class="flex justify-center hover:scale-[1.1] ease-in-out duration-300 text-rose-400 shadow-md rounded-full border-solid border-2 border-[#1eb988] bg-gradient-to-r from-[#43B692] to-[#8fe4c5] p-2 text-2xl lg:text-5xl lg:w-2/3 w-10/12">Vaarikas</p>
-          <p onclick="setApple()" class="flex justify-center hover:scale-[1.1] ease-in-out duration-300 text-rose-400 shadow-md rounded-full border-solid border-2 border-[#1eb988] bg-gradient-to-r from-[#43B692] to-[#8fe4c5] p-2 text-2xl lg:text-5xl lg:w-2/3 w-10/12">Õun</p>
+          <p onclick="setStrawberry()" id="cloud" class="flex justify-center hover:scale-[1.1] ease-in-out duration-300 text-rose-400 shadow-md rounded-full bg-gradient-to-r from-[#43B692] to-[#8fe4c5] text-2xl lg:text-5xl lg:w-2/3 w-10/12">Maasikas
+            <p onclick="setGum()" id="cloud" class="flex justify-center hover:scale-[1.1] ease-in-out duration-300 text-rose-400 shadow-md rounded-full bg-gradient-to-r from-[#43B692] to-[#8fe4c5] text-2xl lg:text-5xl lg:w-2/3 w-10/12">Nätsukomm</p>
+            <p onclick="setRasberry()" id="cloud" class="flex justify-center hover:scale-[1.1] ease-in-out duration-300 text-rose-400 shadow-md rounded-full bg-gradient-to-r from-[#43B692] to-[#8fe4c5] text-2xl lg:text-5xl lg:w-2/3 w-10/12">Vaarikas</p>
+          <p onclick="setApple()" id="cloud" class="flex justify-center hover:scale-[1.1] ease-in-out duration-300 text-rose-400 shadow-md rounded-full bg-gradient-to-r from-[#43B692] to-[#8fe4c5] text-2xl lg:text-5xl lg:w-2/3 w-10/12">Õun</p>
         </p>
         <div class="flex flex-col-2 gap-8 pt-10">
 
@@ -93,7 +93,7 @@ function setStrawberry() {
     document.getElementById("img1").src = "/img/blue-cotton-candy.jpg";
   }
   function setRasberry() {
-    document.getElementById("img1").src = "/img/rasberry.jpg";
+    document.getElementById("img1").src = "/img/pink-candy.jpg";
   }
   
 
