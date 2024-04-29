@@ -108,7 +108,9 @@ body {
   border-radius: 200px;
 }
 
-
+.visible {
+  visibility: visible;
+}
 
 
 hr {
@@ -845,7 +847,7 @@ video {
 @media (min-width: 1024px) {
 
   #cloud {
-    width: 350px; height: 80px;
+    width: 300px; height: 60px;
     background: #f2f9fe;
     
     background: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0.05, #f2f9fe), to(#d6f0fd));
@@ -856,7 +858,7 @@ video {
     
     border-radius: 100px;
     position: relative;
-    margin: 20px auto 60px;
+    margin: 5px auto 60px;
   }
   
   #cloud:after, #cloud:before {
@@ -867,17 +869,17 @@ video {
   }
   
   #cloud:after {
-    width: 100px;
-    height: 100px;
-    top: -50px;
-    left: 70px;
+    width: 70px;
+    height: 70px;
+    top: -30px;
+    left: 100px;
     border-radius: 100px;
   }
   
   #cloud:before {
-    width: 150px;
-    height: 150px;
-    top: -70px;
+    width: 90px;
+    height: 90px;
+    top: -50px;
     right: 50px;
     border-radius: 200px;
   }
@@ -977,6 +979,10 @@ video {
   .lg\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
+  }
+
+  .lg\:invisible {
+    visibility: hidden;
   }
 }
 
