@@ -773,6 +773,9 @@ video {
 .pt-4 {
   padding-top: 1rem;
 }
+.cursor-pointer {
+  cursor: pointer;;
+}
 
 .text-left {
   text-align: left;
