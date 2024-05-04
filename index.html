@@ -7,6 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </head>
 <body class="bg-[url('/img/clouds.jpg')] bg-cover text-white Montserrat">
   
@@ -57,11 +59,26 @@
   <section>
     <div class="container flex flex-col items-center px-8  space-y-12 lg:space-y-0 lg:flex-row">
 
-      <div class="container flex flex-col items-center px-8 lg:pt-20 lg:w-1/2">
-        <a href="/img/Koolilaat.mp4">
-        <img class="lg:w-full rounded-lg" src="/img/masin.JPG">
-    </a><p class="text-black ">Pildil valmistan nätsukommi maitselist suhkruvatti</p>
-     </div>
+      <!-- Slideshow container -->
+<div class="slideshow-container">
+  <!-- First image -->
+  <div class="mySlides fade lg:pt-20">
+      <img class="lg:w-full rounded-lg" src="/img/masin.JPG">
+      <div class="text">Pildil valmistan nätsukommi maitselist suhkruvatti</div>
+  </div>
+  <!-- Second image -->
+  <div class="mySlides fade lg:pt-20">
+    <a href="/img/Koolilaat.mp4">
+      <img class="lg:w-full rounded-lg" src="/img/1.jpeg">
+    </a>
+      <div class="text">Sõbrapäev Leisi koolis 14.02.2024. Pildile klikates ka video laadast.</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+
 
       <div class="flex flex-col lg:pt-0 pl-8 space-y-0 lg:space-y-8 gap-8 text-left lg:text-right lg:w-1/2">
         <div class="w-full h-full bg-linear-gradient flex flex-col rounded-xl space-y-4 lg:space-y-0 lg:pb-6">
@@ -103,6 +120,34 @@ function setStrawberry() {
   function setRasberry() {
     document.querySelector('.vatt').style.backgroundImage = "url('/img/vaarikas.jpeg')";
   }
+  /////////////////
+// Initialize slide index
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+// Show the current slide
+function showSlides(n) {
+    const slides = document.getElementsByClassName("mySlides");
+    if (n > slides.length) {
+        slideIndex = 1;
+    }
+    if (n < 1) {
+        slideIndex = slides.length;
+    }
+    // Hide all slides
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    // Show the current slide
+    slides[slideIndex - 1].style.display = "block";
+}
+
+
   
   </script>
 </div>
