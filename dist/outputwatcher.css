@@ -714,6 +714,9 @@ video {
 .gap-8 {
   gap: 2rem;
 }
+.gap-16 {
+  gap: 4rem;
+}
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
@@ -997,6 +1000,10 @@ video {
 
   .lg\:w-full {
     width: 100%;
+  }
+
+  .lg\:pl-32 {
+    padding-left: 8rem;
   }
 
   .lg\:flex-row {
