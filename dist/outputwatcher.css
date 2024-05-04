@@ -186,6 +186,7 @@ small {
   font-size: 80%;
 }
 
+
 /*
 Prevent `sub` and `sup` elements from affecting the line height in all browsers.
 */
@@ -608,6 +609,10 @@ video {
   display: flex;
 }
 
+.h-64 {
+  height: 16rem;
+}
+
 .h-full {
   height: 100%;
 }
@@ -622,6 +627,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .flex-row {
@@ -718,6 +727,21 @@ video {
 .bg-cover {
   background-size: cover;
 }
+.bg-auto{
+  background-size: auto;
+}
+.bg-contain{
+  background-size: contain;
+}
+.bg-center{
+  background-position: center;
+}
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+.bg-top{
+  background-position: top;
+}
 
 .p-2 {
   padding: 0.5rem;
@@ -783,6 +807,9 @@ video {
 
 .text-center {
   text-align: center;
+}
+.text-justify{
+  text-align: justify;
 }
 
 .font-rub {
@@ -894,6 +921,10 @@ video {
     width: 50%;
   }
 
+  .lg\:bg-cover {
+    background-size: cover;
+  }
+  
   .lg\:w-2\/3 {
     width: 66.666667%;
   }
