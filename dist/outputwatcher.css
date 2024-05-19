@@ -1005,6 +1005,13 @@ video {
   .lg\:pl-32 {
     padding-left: 8rem;
   }
+  
+  .lg\:bg-size {
+    background-size: 300px 400px;
+  }
+  .lg\:bg-pos {
+    background-position-y: 160px;
+  }
 
   .lg\:flex-row {
     flex-direction: row;
