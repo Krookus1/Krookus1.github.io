@@ -1006,19 +1006,30 @@ video {
     width: 100%;
   }
 
+
+.lg\:bg-contain{
+  background-size: contain;
+}
+
   .lg\:pl-32 {
     padding-left: 8rem;
   }
   
   .lg\:bg-size {
-    background-size: 300px 400px;
+    background-size: 500px 700px;
+    border-radius: 1000%;
+
   }
   .lg\:bg-pos {
-    background-position-y: 160px;
+    background-position-y: 10px;
   }
 
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:rounded-full {
+    border-radius: 9999px;
   }
 
   .lg\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
