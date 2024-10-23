@@ -968,7 +968,7 @@ video {
     
     border-radius: 100px;
     position: relative;
-    margin: 5px auto 60px;
+    margin: 5px auto 15px;
   }
   
   #cloud:after, #cloud:before {
