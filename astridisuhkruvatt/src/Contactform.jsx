@@ -31,8 +31,8 @@ const sendEmail = (e) => {
     //
       return  (
         <div className="form-container">
-      <form className="form-wrapper">
-        <h2 className="form-title">Contact Us</h2>
+      <form ref={form} onSubmit={sendEmail} className="form-wrapper">
+        <h2 className="form-title">Kirjuta oma soovist</h2>
 
         <div className="flex flex-col md:flex-row gap-6">
           {/* Left Side: Name, Email, and Phone */}
@@ -42,7 +42,7 @@ const sendEmail = (e) => {
               <FaUser className="absolute left-3 text-gray-400" />
               <input
                 type="text"
-                placeholder="Name"
+                placeholder="Nimi"
                 className="input-field"
               />
             </div>
@@ -62,7 +62,7 @@ const sendEmail = (e) => {
               <FaPhone className="absolute left-3 text-gray-400" />
               <input
                 type="tel"
-                placeholder="Phone"
+                placeholder="Telefon"
                 className="input-field"
               />
             </div>
@@ -72,19 +72,20 @@ const sendEmail = (e) => {
           <div className="input-group flex-grow relative">
             <FaInfoCircle className="absolute left-3 top-3 text-gray-400" />
             <textarea
-              placeholder="Extra Info"
+              placeholder="Info"
               className="textarea-field"
             />
           </div>
         </div>
 
         {/* Submit Button */}
-        <button
+        <button 
           type="submit"
-          className="submit-button"
+          className="submit-button input-group flex-grow relative"
         >
-          Submit
+          SAADA
         </button>
+        
       </form>
     </div>
       );
