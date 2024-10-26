@@ -41,6 +41,7 @@ const sendEmail = (e) => {
             <div className="input-group">
               <FaUser className="absolute left-3 text-gray-400" />
               <input
+              name="user_name"
                 type="text"
                 placeholder="Nimi"
                 className="input-field"
@@ -51,6 +52,7 @@ const sendEmail = (e) => {
             <div className="input-group">
               <FaEnvelope className="absolute left-3 text-gray-400" />
               <input
+              name="kasutaja_mail"
                 type="email"
                 placeholder="Email"
                 className="input-field"
@@ -61,6 +63,7 @@ const sendEmail = (e) => {
             <div className="input-group">
               <FaPhone className="absolute left-3 text-gray-400" />
               <input
+              name="tel_nr"
                 type="tel"
                 placeholder="Telefon"
                 className="input-field"
@@ -72,6 +75,7 @@ const sendEmail = (e) => {
           <div className="input-group flex-grow relative">
             <FaInfoCircle className="absolute left-3 top-3 text-gray-400" />
             <textarea
+            name="message"
               placeholder="Info"
               className="textarea-field"
             />
