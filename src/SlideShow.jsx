@@ -4,59 +4,59 @@ const SlideShow = () => {
   // Array of images or slide content
   const slides = [
     {
-      src: 'public/img/Kevadlaat9.JPG',
+      src: '/img/Kevadlaat9.JPG',
       caption: 'Suhkruvati nõudlus',
     },
     {
-      src: 'public/img/Kevadlaat2.JPG',
+      src: '/img/Kevadlaat2.JPG',
       caption: 'Suhkruvatt nämm nämm',
     },
     {
-      src: 'public/img/Kevadlaat3.JPG',
+      src: '/img/Kevadlaat3.JPG',
       caption: 'Ootan kliente',
     },
     {
-      src: 'public/img/Kevadlaat4.JPG',
+      src: '/img/Kevadlaat4.JPG',
       caption: 'Korrastan suhkruvati suhkruid',
     },
     {
-      src: 'public/img/Kevadlaat5.JPG',
+      src: '/img/Kevadlaat5.JPG',
       caption: 'Alustan suhkruvati tegemist',
     },
     {
-      src: 'public/img/Kevadlaat6.JPG',
+      src: '/img/Kevadlaat6.JPG',
       caption: 'Minu suhkruvati hinnad laatadel ',
     },
     {
-      src: 'public/img/Kevadlaat7.JPG',
+      src: '/img/Kevadlaat7.JPG',
       caption: 'Poseerin koos nätsukommi maitselise suhkruvatiga',
     },
     {
-      src: 'public/img/Kevadlaat8.JPG',
+      src: '/img/Kevadlaat8.JPG',
       caption: '',
     },
     {
-      src: 'public/img/Kevadlaat10.JPG',
+      src: '/img/Kevadlaat10.JPG',
       caption: '',
     },
     {
-      src: 'public/img/Kevadlaat1.jpeg',
+      src: '/img/Kevadlaat1.jpeg',
       caption: '',
     },
     {
-      src: 'public/img/Volber.JPG',
+      src: '/img/Volber.JPG',
       caption: '',
     },
     {
-      src: 'public/img/kodune.JPG',
+      src: '/img/kodune.JPG',
       caption: '',
     },
     {
-      src: 'public/img/masin.JPG',
+      src: '/img/masin.JPG',
       caption: '',
     },
     {
-      src: 'public/img/1.jpeg',
+      src: '/img/1.jpeg',
       caption: '',
     },
 
