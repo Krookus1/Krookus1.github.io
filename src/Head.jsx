@@ -17,25 +17,25 @@ function Head() {
       <div class="flex px-2 lg:pb-12 flex-row flex-wrap pt-8 lg:pt-20">
 
           <div class="lg:pb-16 pb-8 w-1/2 lg:w-1/4 px-2 hover:scale-[1.1] ease-in-out duration-300"><p id="cloud" class="flex items-center justify-center text-rose-400 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] rounded-full bg-gradient-to-r from-[#43B692] to-[#8fe4c5] text-2xl lg:text-4xl lg:w-2/3 w-10/12">Maasikas</p>
-            <img class="lg:w-full rounded-lg" src="public/img/Maasikas.jpeg"></img></div>
+            <img class="lg:w-full rounded-lg" src="/img/Maasikas.jpeg"></img></div>
             <div class="lg:pb-16 pb-8  w-1/2 lg:w-1/4  px-2 hover:scale-[1.1] ease-in-out duration-300"><p id="cloud" class="flex items-center justify-center text-rose-400 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] rounded-full bg-gradient-to-r from-[#43B692] to-[#8fe4c5] text-2xl lg:text-4xl lg:w-2/3 w-10/12">Õun</p>
-            <img class="lg:w-full rounded-lg" src="public/img/oun.jpeg"></img></div>
+            <img class="lg:w-full rounded-lg" src="/img/oun.jpeg"></img></div>
             <div class="lg:pb-16 pb-8  w-1/2 lg:w-1/4  px-2 hover:scale-[1.1] ease-in-out duration-300"><p id="cloud" class="flex items-center justify-center text-rose-400 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] rounded-full bg-gradient-to-r from-[#43B692] to-[#8fe4c5] text-2xl lg:text-4xl lg:w-2/3 w-10/12">Nätsukomm</p>
-            <img class="lg:w-full rounded-lg" src="public/img/natsukomm.jpeg"></img></div>
+            <img class="lg:w-full rounded-lg" src="/img/natsukomm.jpeg"></img></div>
             <div class="lg:pb-16 pb-8  w-1/2 lg:w-1/4  px-2 hover:scale-[1.1] ease-in-out duration-300"><p id="cloud" class="flex items-center justify-center text-rose-400 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] rounded-full bg-gradient-to-r from-[#43B692] to-[#8fe4c5] text-2xl lg:text-4xl lg:w-2/3 w-10/12">Vaarikas</p>
-            <img class="lg:w-full rounded-lg" src="public/img/vaarikas.jpeg"></img></div>
+            <img class="lg:w-full rounded-lg" src="/img/vaarikas.jpeg"></img></div>
             <div class="lg:pb-16 pb-8  w-1/2 lg:w-1/4  px-2 hover:scale-[1.1] ease-in-out duration-300"><p id="cloud" class="flex items-center justify-center text-rose-400 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] rounded-full bg-gradient-to-r from-[#43B692] to-[#8fe4c5] text-2xl lg:text-4xl lg:w-2/3 w-10/12">Coca-Cola</p>
-            <img class="lg:w-full rounded-lg" src="public/img/Maasikas.jpeg"></img></div>
+            <img class="lg:w-full rounded-lg" src="/img/Maasikas.jpeg"></img></div>
             <div class="lg:pb-16 pb-8  w-1/2 lg:w-1/4  px-2 hover:scale-[1.1] ease-in-out duration-300"><p id="cloud" class="flex items-center justify-center text-rose-400 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] rounded-full bg-gradient-to-r from-[#43B692] to-[#8fe4c5] text-2xl lg:text-4xl lg:w-2/3 w-10/12">Sidrun</p>
-            <img class="lg:w-full rounded-lg" src="public/img/Maasikas.jpeg"></img></div>
+            <img class="lg:w-full rounded-lg" src="/img/Maasikas.jpeg"></img></div>
             <div class="lg:pb-16 pb-8  w-1/2 lg:w-1/4  px-2 hover:scale-[1.1] ease-in-out duration-300"><p id="cloud" class="flex items-center justify-center text-rose-400 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] rounded-full bg-gradient-to-r from-[#43B692] to-[#8fe4c5] text-2xl lg:text-4xl lg:w-2/3 w-10/12">Arbuus</p>
-            <img class="lg:w-full rounded-lg" src="public/img/Maasikas.jpeg"></img></div>
+            <img class="lg:w-full rounded-lg" src="/img/Maasikas.jpeg"></img></div>
             <div class="lg:pb-16 pb-8  w-1/2 lg:w-1/4  px-2 hover:scale-[1.1] ease-in-out duration-300"><p id="cloud" class="flex items-center justify-center text-rose-400 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] rounded-full bg-gradient-to-r from-[#43B692] to-[#8fe4c5] text-2xl lg:text-4xl lg:w-2/3 w-10/12">Mustikas</p>
-            <img class="lg:w-full rounded-lg" src="public/img/Maasikas.jpeg"></img></div>
+            <img class="lg:w-full rounded-lg" src="/img/Maasikas.jpeg"></img></div>
             <div class="lg:pb-16 pb-8  w-1/2 lg:w-1/4  px-2 hover:scale-[1.1] ease-in-out duration-300"><p id="cloud" class="flex items-center justify-center text-rose-400 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] rounded-full bg-gradient-to-r from-[#43B692] to-[#8fe4c5] text-2xl lg:text-4xl lg:w-2/3 w-10/12">Apelsin</p>
-            <img class="lg:w-full rounded-lg" src="public/img/Maasikas.jpeg"></img></div>
+            <img class="lg:w-full rounded-lg" src="/img/Maasikas.jpeg"></img></div>
             <div class="lg:pb-16 pb-8  w-1/2 lg:w-1/4  px-2 hover:scale-[1.1] ease-in-out duration-300"><p id="cloud" class="flex items-center justify-center text-rose-400 drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] rounded-full bg-gradient-to-r from-[#43B692] to-[#8fe4c5] text-2xl lg:text-4xl lg:w-2/3 w-10/12">Kirss</p>
-            <img class="lg:w-full rounded-lg" src="public/img/Maasikas.jpeg"></img></div>
+            <img class="lg:w-full rounded-lg" src="/img/Maasikas.jpeg"></img></div>
         
         </div>
         </div>
