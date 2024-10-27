@@ -20,7 +20,7 @@ const sendEmail = (e) => {
       .then(
         () => {
           console.log('SUCCESS!');
-          window.location.href = "/success";
+          window.location.href = "/";
         },
         (error) => {
           console.log('FAILED...', error.text);
