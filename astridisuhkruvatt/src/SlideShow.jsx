@@ -1,75 +1,68 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const SlideShow = () => {
   // Array of images or slide content
   const slides = [
     {
       src: '/img/Kevadlaat9.JPG',
-      caption: 'Caption for Image 1',
+      caption: 'Suhkruvati nõudlus',
     },
     {
       src: '/img/Kevadlaat2.JPG',
-      caption: 'Caption for Image 1',
+      caption: 'Suhkruvatt nämm nämm',
     },
     {
       src: '/img/Kevadlaat3.JPG',
-      caption: 'Caption for Image 1',
+      caption: 'Ootan kliente',
     },
     {
       src: '/img/Kevadlaat4.JPG',
-      caption: 'Caption for Image 1',
+      caption: 'Korrastan suhkruvati suhkruid',
     },
     {
       src: '/img/Kevadlaat5.JPG',
-      caption: 'Caption for Image 1',
+      caption: 'Alustan suhkruvati tegemist',
     },
     {
       src: '/img/Kevadlaat6.JPG',
-      caption: 'Caption for Image 1',
+      caption: 'Minu suhkruvati hinnad laatadel ',
     },
     {
       src: '/img/Kevadlaat7.JPG',
-      caption: 'Caption for Image 1',
+      caption: 'Poseerin koos nätsukommi maitselise suhkruvatiga',
     },
     {
       src: '/img/Kevadlaat8.JPG',
-      caption: 'Caption for Image 1',
+      caption: '',
     },
     {
       src: '/img/Kevadlaat10.JPG',
-      caption: 'Caption for Image 1',
+      caption: '',
     },
     {
       src: '/img/Kevadlaat1.jpeg',
-      caption: 'Caption for Image 1',
+      caption: '',
     },
     {
       src: '/img/Volber.JPG',
-      caption: 'Caption for Image 1',
+      caption: '',
     },
     {
       src: '/img/kodune.JPG',
-      caption: 'Caption for Image 1',
+      caption: '',
     },
     {
       src: '/img/masin.JPG',
-      caption: 'Caption for Image 1',
+      caption: '',
     },
     {
       src: '/img/1.jpeg',
-      caption: 'Caption for Image 1',
+      caption: '',
     },
 
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, []);
 
   const nextSlide = () => setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
   const prevSlide = () => setCurrentSlide((prevSlide) => (prevSlide === 0 ? slides.length - 1 : prevSlide - 1));

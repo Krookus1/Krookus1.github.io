@@ -190,7 +190,7 @@ body {
 
 .slideshow-container {
   position: relative;
-  max-width: 600px;
+  max-width: 530px;
   margin: auto;
 }
 
@@ -1234,6 +1234,11 @@ video {
 
   .lg\:text-3xl {
     font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.5rem;
     line-height: 2.25rem;
   }
 
