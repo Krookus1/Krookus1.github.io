@@ -4,6 +4,10 @@ const SlideShow = () => {
   // Array of images or slide content
   const slides = [
     {
+      src: '/img/masin.JPG',
+      caption: 'Suhkruvatt!',
+    },
+    {
       src: '/img/Kevadlaat9.JPG',
       caption: 'Suhkruvati nõudlus',
     },
@@ -49,10 +53,6 @@ const SlideShow = () => {
     },
     {
       src: '/img/kodune.JPG',
-      caption: '',
-    },
-    {
-      src: '/img/masin.JPG',
       caption: '',
     },
     {
