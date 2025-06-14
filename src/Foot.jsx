@@ -13,7 +13,7 @@ function Foot() {
           <h1 class="text-xl lg:text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Tunni hind 60 eurot</h1>
         </div>
         <div class="w-full h-full bg-linear-gradient flex flex-col rounded-xl space-y-4 lg:space-y-0 lg:space-x-6">
-          <h1 class="text-xl lg:text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Valmistan suhkruvatte Harjumaa piires</h1>
+          <h1 class="text-xl lg:text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Valmistan suhkruvatte 2025 aasta suvel Saaremaal</h1>
         </div>
       </div>
     </div>
