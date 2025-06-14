@@ -32,7 +32,7 @@ const sendEmail = (e) => {
       return  (
         <div className="form-container">
       <form ref={form} onSubmit={sendEmail} className="form-wrapper">
-        <h2 className="form-title">Kirjuta oma soovist</h2>
+        <h2 className="text-l lg:text-3xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Kirjuta oma soovist</h2>
 
         <div className="flex flex-col md:flex-row gap-6">
           {/* Left Side: Name, Email, and Phone */}
@@ -85,7 +85,7 @@ const sendEmail = (e) => {
         {/* Submit Button */}
         <button 
           type="submit"
-          className="submit-button input-group flex-grow relative"
+          className="submit-button input-group relative"
         >
           SAADA
         </button>
