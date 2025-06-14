@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { FaUser, FaEnvelope, FaPhone, FaInfoCircle } from 'react-icons/fa';
+import { FaUser, FaEnvelope, FaPhone, FaInfoCircle, FaCandyCane, FaHeadset, FaMailBulk, FaChild } from 'react-icons/fa';
 
 
 function Contactform() {
@@ -39,7 +39,7 @@ const sendEmail = (e) => {
           <div className="flex flex-col gap-4 w-full md:w-1/2">
             {/* Name Input */}
             <div className="input-group">
-              <FaUser className="absolute left-3 text-gray-400" />
+              <FaChild className="absolute left-3 text-gray-400" />
               <input
               name="user_name"
                 type="text"
@@ -50,7 +50,7 @@ const sendEmail = (e) => {
 
             {/* Email Input */}
             <div className="input-group">
-              <FaEnvelope className="absolute left-3 text-gray-400" />
+              <FaMailBulk className="absolute left-3 text-gray-400" />
               <input
               name="kasutaja_mail"
                 type="email"
@@ -61,7 +61,7 @@ const sendEmail = (e) => {
 
             {/* Phone Input */}
             <div className="input-group">
-              <FaPhone className="absolute left-3 text-gray-400" />
+              <FaHeadset className="absolute left-3 text-gray-400" />
               <input
               name="tel_nr"
                 type="tel"
@@ -73,7 +73,7 @@ const sendEmail = (e) => {
 
           {/* Right Side: Extra Info */}
           <div className="input-group flex-grow relative">
-            <FaInfoCircle className="absolute left-3 top-3 text-gray-400" />
+            <FaCandyCane className="absolute left-3 top-3 text-gray-400" />
             <textarea
             name="message"
               placeholder="Info"
