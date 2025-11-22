@@ -7,13 +7,13 @@ function Foot() {
     <div class="flex flex-col items-center px-8 space-y-12 lg:space-y-0 lg:flex-row">
       <div class="flex flex-col lg:pt-0 space-y-0 gap-8 text-left lg:text-right">
         <div class="w-full h-full bg-linear-gradient flex flex-col rounded-xl space-y-4 lg:space-y-0">
-          <h1 class="text-xl lg:text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Teen sünnipäevadel ja muudel üritustel vahvaid suhkruvatte</h1>
+          <h1 class="text-xl lg:text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Teen sünnipäevadel ja sünnipäevadeks vahvaid suhkruvatte</h1>
         </div>
         <div class="w-full h-full bg-linear-gradient flex flex-col rounded-xl space-y-4 lg:space-y-0 lg:space-x-6">
-          <h1 class="text-xl lg:text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Tunni hind 60 eurot</h1>
+          <h1 class="text-xl lg:text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Tunni hind 60 eurot, aga saab ka ette tellida 1L ämbrites hind 3,50tk</h1>
         </div>
         <div class="w-full h-full bg-linear-gradient flex flex-col rounded-xl space-y-4 lg:space-y-0 lg:space-x-6">
-          <h1 class="text-xl lg:text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Valmistan suhkruvatte 2025 aasta suvel Saaremaal</h1>
+          <h1 class="text-xl lg:text-5xl drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] text-center font-rub">Valmistan suhkruvatte Tallinnas</h1>
         </div>
       </div>
     </div>
